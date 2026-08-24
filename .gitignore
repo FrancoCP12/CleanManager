@@ -1,1 +1,14 @@
-Archivos sin traquear
+# Archivos binarios compilados de Go
+.exe
+.exe~
+.dll
+.so
+.dylib
+inventario-app
+
+# Dependencias locales o temporales
+vendor/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
