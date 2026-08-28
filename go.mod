@@ -1,4 +1,4 @@
-module inventario
+module CleanManager
 
 go 1.26.6
 
