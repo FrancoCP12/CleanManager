@@ -1,14 +1,36 @@
-# Archivos binarios compilados de Go
-.exe
-.exe~
-.dll
-.so
-.dylib
-inventario-app
+# Binarios compilados de Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/bin/
+/cmd/api/api
 
-# Dependencias locales o temporales
+# Dependencias
 vendor/
 
-# Archivos del sistema
+# Go
+go.work
+go.work.sum
+*.prof
+
+# Entorno / secretos (nunca commitear)
+.env
+.env.*
+*.pem
+*.key
+
+# Archivos del sistema / editor
 .DS_Store
 Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs y temporales
+*.log
+tmp/
